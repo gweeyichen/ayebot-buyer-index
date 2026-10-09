@@ -1,0 +1,35 @@
+{
+  "name": "ayebot-buyer-index",
+  "title": "Ayebot Southeast Asia Buyer Index",
+  "description": "Monthly aggregate counts of acquirers mapped by Ayebot across 12 sectors and 6 Southeast Asian markets. Counts only; no buyer names. Counts overlap between cells and are not a market census.",
+  "version": "2026.10",
+  "licenses": [{"name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0 International"}],
+  "homepage": "https://ayebot.com/buyers",
+  "sources": [{"title": "Ayebot buyer index", "path": "https://ayebot.com/data/buyer-index.json"}],
+  "contributors": [{"title": "Ayebot", "path": "https://ayebot.com", "role": "author"}],
+  "keywords": ["m-and-a", "southeast-asia", "singapore", "open-data"],
+  "resources": [
+    {
+      "name": "buyer-index-2026-10",
+      "path": "data/2026-10.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {"name": "snapshot_date", "type": "date", "description": "Date the index was generated"},
+          {"name": "sector", "type": "string", "constraints": {"enum": ["healthcare","beauty","consumer","fnb","education","logistics","industrial","building","technology","services","financial","energy"]}},
+          {"name": "market", "type": "string", "constraints": {"enum": ["sg","my","id","th","vn","ph"]}},
+          {"name": "mapped_acquirers", "type": "integer", "constraints": {"minimum": 0}, "description": "Unique acquirers stating interest in the sector whose stated geography names the market or carries a region-wide or global mandate"}
+        ],
+        "primaryKey": ["snapshot_date", "sector", "market"]
+      }
+    },
+    {
+      "name": "buyer-index-2026-10-headline",
+      "path": "data/2026-10.json",
+      "format": "json",
+      "mediatype": "application/json"
+    }
+  ]
+}

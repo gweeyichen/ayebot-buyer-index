@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Ayebot Southeast Asia Buyer Index"
+type: dataset
+abstract: "Monthly aggregate counts of acquirers mapped by Ayebot across 12 sectors and 6 Southeast Asian markets. Counts only; no buyer names."
+authors:
+  - name: "Ayebot"
+    website: "https://ayebot.com"
+    email: "yichen@gacapital.com.sg"
+repository-code: "https://github.com/gweeyichen/ayebot-buyer-index"
+url: "https://ayebot.com/buyers"
+license: CC-BY-4.0
+version: "2026.10"
+date-released: "2026-10-09"
+keywords:
+  - mergers and acquisitions
+  - Southeast Asia
+  - Singapore
+  - open data
+  - acquirers

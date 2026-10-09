@@ -1,0 +1,33 @@
+{
+ "snapshot_date": "2026-10-09",
+ "source": "https://ayebot.com/data/buyer-index.json",
+ "register_unique_buyers": 2358,
+ "headline": {
+  "unique": 2358,
+  "pe": 406,
+  "strategic": 1541,
+  "listed": 332
+ },
+ "sectors": {
+  "healthcare": "Healthcare & medical",
+  "beauty": "Beauty, aesthetics & wellness",
+  "consumer": "Consumer brands & retail",
+  "fnb": "Food & beverage",
+  "education": "Education",
+  "logistics": "Logistics & supply chain",
+  "industrial": "Industrial & engineering",
+  "building": "Building services & infrastructure",
+  "technology": "Technology & software",
+  "services": "Business & professional services",
+  "financial": "Financial services",
+  "energy": "Energy & environment"
+ },
+ "markets": {
+  "sg": "Singapore",
+  "my": "Malaysia",
+  "id": "Indonesia",
+  "th": "Thailand",
+  "vn": "Vietnam",
+  "ph": "Philippines"
+ }
+}

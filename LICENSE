@@ -1,14 +1,3 @@
-Ayebot Southeast Asia Buyer Index
-Copyright (c) Ayebot (ayebot.com)
-
-The data in this repository (data/ and datapackage.json) is released under
-the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
-Attribution required: "Ayebot (ayebot.com)", with a link to
-https://ayebot.com/buyers. The code in scripts/ is released under the same
-licence for simplicity.
-
-Full licence text follows (https://creativecommons.org/licenses/by/4.0/legalcode).
-
 Attribution 4.0 International
 
 =======================================================================
@@ -250,7 +239,7 @@ following conditions.
             b. indicate if You modified the Licensed Material and
                retain an indication of any previous modifications; and
 
-            c. indicate the Licensed Material is released under this
+            c. indicate the Licensed Material is licensed under this
                Public License, and include the text of, or the URI or
                hyperlink to, this Public License.
 

@@ -6,7 +6,7 @@ abstract: "Monthly aggregate counts of acquirers mapped by Ayebot across 12 sect
 authors:
   - name: "Ayebot"
     website: "https://ayebot.com"
-    email: "yichen@gacapital.com.sg"
+    email: "hi@ayebot.com"
 repository-code: "https://github.com/gweeyichen/ayebot-buyer-index"
 url: "https://ayebot.com/buyers"
 license: CC-BY-4.0

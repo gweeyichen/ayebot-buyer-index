@@ -43,7 +43,7 @@ A mapped acquirer is a company or investor on the Ayebot buyer register that has
 
 ## Method
 
-1. The buyer register is compiled by Growth Alliance Capital from public sources and its own work. Each record holds the buyer's stated target sectors, target geographies, category and, where known, a target revenue range.
+1. The buyer register is compiled by Ayebot from public sources and its own work. Each record holds the buyer's stated target sectors, target geographies, category and, where known, a target revenue range.
 2. Records are de-duplicated on company name after stripping legal suffixes (for example Pte, Ltd, Limited, Sdn Bhd, Group, Holdings), so the same company written two ways counts once.
 3. Each record's sector text is matched against keyword patterns for the 12 sectors. Each record's geography text is matched against the 6 markets.
 4. For every sector and market pair, the index counts distinct buyers that match the sector and whose geography names the market, or is region-wide, or is global.
@@ -61,7 +61,7 @@ The source is one file, https://ayebot.com/data/buyer-index.json, which is the s
 
 ## Known limitations
 
-- The register is compiled by Growth Alliance Capital from public sources and its own work. These counts are not a census of the market and are not independently audited.
+- The register is compiled by Ayebot from public sources and its own work. These counts are not a census of the market and are not independently audited.
 - A buyer's interest is its stated appetite. It is not a commitment, mandate or offer.
 - Sector and market matching uses keyword patterns on recorded text, so some buyers may be misclassified or missed.
 - Counts overlap between cells. One buyer can sit in many sectors and many markets, and region-wide and global mandates count in every market. Do not add the 72 cells together to get a number of buyers; use `register_unique_buyers`.
@@ -86,4 +86,4 @@ Data released under Creative Commons Attribution 4.0 International (CC BY 4.0). 
 
 ## Contact
 
-yichen@gacapital.com.sg
+hi@ayebot.com

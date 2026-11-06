@@ -1,12 +1,12 @@
 {
- "snapshot_date": "2026-10-09",
+ "snapshot_date": "2026-11-04",
  "source": "https://ayebot.com/data/buyer-index.json",
- "register_unique_buyers": 2358,
+ "register_unique_buyers": 2524,
  "headline": {
-  "unique": 2358,
-  "pe": 406,
-  "strategic": 1541,
-  "listed": 332
+  "unique": 2524,
+  "pe": 414,
+  "strategic": 1697,
+  "listed": 349
  },
  "sectors": {
   "healthcare": "Healthcare & medical",

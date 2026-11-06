@@ -1,6 +1,6 @@
 # Ayebot Southeast Asia Buyer Index
 
-**The Ayebot Southeast Asia Buyer Index is an open monthly dataset of how many acquirers are mapped in each of 12 sectors across 6 Southeast Asian markets (Singapore, Malaysia, Indonesia, Thailand, Vietnam, Philippines). The October 2026 snapshot covers 2,358 unique acquirers; the smallest sector and market cell is Education in the Philippines (21 acquirers) and the largest is Healthcare in Singapore (192).** It contains aggregate counts only. No buyer names, no deal data.
+**The Ayebot Southeast Asia Buyer Index is an open monthly dataset of how many acquirers are mapped in each of 12 sectors across 6 Southeast Asian markets (Singapore, Malaysia, Indonesia, Thailand, Vietnam, Philippines). The November 2026 snapshot covers 2,524 unique acquirers; the smallest sector and market cell is Education in the Philippines (21 acquirers) and the largest is Industrial in Singapore (238).** It contains aggregate counts only. No buyer names, no deal data.
 
 Live explorer: https://ayebot.com/buyers · Method in plain English: https://ayebot.com/how-it-works
 
@@ -28,12 +28,12 @@ Sector codes: `healthcare`, `beauty`, `consumer`, `fnb`, `education`, `logistics
 
 ### Headline fields (`data/*.json`)
 
-| Field | October 2026 | Meaning |
+| Field | November 2026 | Meaning |
 |---|---|---|
-| `register_unique_buyers` / `headline.unique` | 2,358 | De-duplicated acquirers on the register |
-| `headline.pe` | 406 | Of which private equity |
-| `headline.strategic` | 1,541 | Of which strategic (operating companies, including PE-backed operating companies) |
-| `headline.listed` | 332 | Of which flagged as listed companies |
+| `register_unique_buyers` / `headline.unique` | 2,524 | De-duplicated acquirers on the register |
+| `headline.pe` | 414 | Of which private equity |
+| `headline.strategic` | 1,697 | Of which strategic (operating companies, including PE-backed operating companies) |
+| `headline.listed` | 349 | Of which flagged as listed companies |
 
 Private equity and strategic are not exhaustive: family offices, pension and sovereign funds and unclassified buyers make up the remainder.
 
@@ -76,9 +76,9 @@ Monthly. Each month adds `data/YYYY-MM.*` and refreshes `data/latest.*`. Earlier
 
 ## How to cite
 
-> Ayebot (2026). *Ayebot Southeast Asia Buyer Index*, October 2026 snapshot. https://github.com/gweeyichen/ayebot-buyer-index
+> Ayebot (2026). *Ayebot Southeast Asia Buyer Index*, November 2026 snapshot. https://github.com/gweeyichen/ayebot-buyer-index
 
-Short form: "Ayebot (ayebot.com), Southeast Asia Buyer Index, October 2026." See `CITATION.cff`.
+Short form: "Ayebot (ayebot.com), Southeast Asia Buyer Index, November 2026." See `CITATION.cff`.
 
 ## Licence
 
